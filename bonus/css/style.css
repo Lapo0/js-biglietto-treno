@@ -22,11 +22,13 @@ img{
     max-width: 100%;
 }
 
-.container > p {
+.container .js {
     border: 5px solid green;
-    margin: 0;
     padding: 1em 2em;
     border-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #prezzo-finale{
@@ -39,4 +41,10 @@ img{
     border-top: 0;
     text-align: center;
     font-weight: bold;
+    margin: 0;
+    padding: 1em;
+}
+
+.qr-code{
+    width: 150px;
 }

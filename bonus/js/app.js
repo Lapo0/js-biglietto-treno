@@ -28,7 +28,7 @@ const prezzoTotale = chilometriDaPercorrere * prezzoAlChilometro;
 console.log(prezzoTotale.toFixed(2));
 
 const prezzoIntero = document.getElementById('prezzo-intero');
-prezzoIntero.innerHTML = 'Il prezzo del biglietto è: ' + prezzoTotale.toFixed(2);
+prezzoIntero.innerHTML = 'Il prezzo del biglietto è: ' + prezzoTotale.toFixed(2) + ' €';
 
     // Sconto minorenne
     if (eta < 18) {
@@ -36,11 +36,11 @@ prezzoIntero.innerHTML = 'Il prezzo del biglietto è: ' + prezzoTotale.toFixed(2
         console.log (prezzoMinorenni.toFixed(2));
 
         const valoreScontoMinorenni = document.getElementById('valore-sconto');
-        valoreScontoMinorenni.innerHTML = 'Essendo però minorenne ha lo sconto di: ' + (prezzoTotale - prezzoMinorenni).toFixed(2);
+        valoreScontoMinorenni.innerHTML = 'Essendo però minorenne ha lo sconto di: ' + (prezzoTotale - prezzoMinorenni).toFixed(2) + ' €';
         console.log (valoreScontoMinorenni)
 
         const prezzoFinaleMinorenni = document.getElementById('prezzo-finale');
-        prezzoFinaleMinorenni.innerHTML = 'Quindi il suo costo è: ' + prezzoMinorenni.toFixed(2);
+        prezzoFinaleMinorenni.innerHTML = 'Quindi il suo costo è: ' + prezzoMinorenni.toFixed(2) + ' €';
         console.log (prezzoMinorenni.toFixed(2));
 
     // Sconto Over 65    
@@ -49,11 +49,11 @@ prezzoIntero.innerHTML = 'Il prezzo del biglietto è: ' + prezzoTotale.toFixed(2
         console.log (prezzoOver.toFixed(2));
 
         const valoreScontoOver = document.getElementById('valore-sconto');
-        valoreScontoOver.innerHTML = 'Essendo però Over 65 ha lo sconto di: ' + (prezzoTotale - prezzoOver).toFixed(2);
+        valoreScontoOver.innerHTML = 'Essendo però Over 65 ha lo sconto di: ' + (prezzoTotale - prezzoOver).toFixed(2) + ' €';
         console.log (valoreScontoOver);
 
         const prezzoFinaleOver = document.getElementById('prezzo-finale');
-        prezzoFinaleOver.innerHTML = 'Quindi il suo costo è: ' + prezzoOver.toFixed(2);
+        prezzoFinaleOver.innerHTML = 'Quindi il suo costo è: ' + prezzoOver.toFixed(2) + ' €';
         console.log (prezzoOver.toFixed(2));
     }
 
