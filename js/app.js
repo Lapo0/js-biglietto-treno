@@ -3,6 +3,25 @@ const chilometriDaPercorrere = parseFloat( prompt('Quanti chilometri devi percor
 
 console.log ('Devi percorrere:', chilometriDaPercorrere, 'km')
 
+const resultContainer = document.getElementById('chilometri');
+
+resultContainer.innerHTML = 'Devi percorrere: ' + chilometriDaPercorrere + ' km';
+
+
+//Nome del passeggero
+const firstName = prompt('Come ti chiami?')
+
+const userFirstName = document.getElementById('first-name');
+
+userFirstName.innerHTML = 'Sig. ' + firstName;
+
+// Cognome del passeggero
+const lastName = prompt('Qual è il tuo cognome?')
+
+const userLastName = document.getElementById('last-name');
+
+userLastName.innerHTML = 'Sig. ' + lastName;
+
 // Qual è la tua età
 const eta = parseInt(prompt ('Quanti anni hai?'))
 
