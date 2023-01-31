@@ -1,18 +1,21 @@
 .container{
     width: 600px;
     margin: 0 auto;
+    margin-top: 200px;
 }
 
 .name-client{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 5px solid red;
+    border: 5px solid  #D81B36;
     border-radius: 25px 00 25px;
+    border-bottom: 0;
+    font-weight: bold;
 }
 
 .logo{
-    width: 25%;
+    width: 40%;
 }
 
 img{
@@ -20,17 +23,20 @@ img{
 }
 
 .container > p {
-    border: 5px solid black;
+    border: 5px solid green;
     margin: 0;
-    padding: 1em 0.5em;
-    border-bottom: 0;
+    padding: 1em 2em;
+    border-top: 0;
 }
 
-.container :last-child{
-    border-bottom: 5px solid black;
+#prezzo-finale{
     border-radius: 0 0 25px 0;
 }
 
 #chilometri{
     border-radius: 0 25px 0 0;
+    border: 5px solid  #D81B36;
+    border-top: 0;
+    text-align: center;
+    font-weight: bold;
 }

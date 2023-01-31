@@ -13,7 +13,7 @@ userLastName.innerHTML = lastName;
 const chilometriDaPercorrere = parseFloat( prompt('Quanti chilometri devi percorrere?'))
 console.log ('Devi percorrere:', chilometriDaPercorrere, 'km');
 const resultContainer = document.getElementById('chilometri');
-resultContainer.innerHTML = 'Salve, deve percorrere: ' + chilometriDaPercorrere + ' km';
+resultContainer.innerHTML = 'Buonviaggio, deve percorrere: ' + chilometriDaPercorrere + ' km';
 
 // Qual è la tua età
 const eta = parseInt(prompt ('Quanti anni hai?'));
